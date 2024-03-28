@@ -264,16 +264,98 @@ text-align: center;
   font-size: 1em;
   margin-bottom: 0.5em;
 } 
-/* style division 3 */
-.div3{
-  display: grid;
-  grid-template-columns: 1fr auto;
+
+
+
+/* avis des patients */
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.div3 img{
-  width: 500px; 
-  height: 400px;
+.slider-1{
+  border:1px solid rgba(255, 255, 255, 0) ;
+  overflow: hidden; 
 }
-.div3 .hihi{
-  justify-self: end;
-  margin-right: 10px;
+.slider-1 .slider{
+  display: flex;
+  animation: slider-1 12s infinite ease-in-out;
 }
+ .slider-1 .avis{
+  background: rgb(255, 255, 255);
+  flex-shrink: 0;
+  padding: 10px ; 
+  width: 100%;
+  text-align: center; 
+  
+} 
+@keyframes slider-1{
+  0%,20% {
+      transform: translateX(0);
+  }
+  25%,45%{
+      transform:translateX(-100%);
+  }
+  50%,70%{
+      transform:translateX(-200%);
+  }
+  75% , 95%{ 
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-400%);
+  }
+
+}
+.avis{
+  display:flex;
+  
+}
+.avis p {
+  font-family: 'roboto slab';
+  font-size: 25px;
+  color: #012c4b;
+  margin-left: 5px;
+  
+  text-align: center; /* Aligner le texte à gauche */
+  margin-top: 20px;
+  margin-right:70px
+
+  
+}
+
+.avis img {
+  width: 420px;
+  height: 230px;
+  padding-right: 50px;
+}
+.bo{
+  font-family: 'Playfair Display';
+  color: hsla(216, 63%, 44%, 0.772);
+  font-size: 30px;
+  margin-left:40px ;
+  margin-top: 5px;
+
+}
+.avis .nom{
+  color: #9999997b;
+  font-family:"Open Sans" ;
+  text-align: left;
+  
+  
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

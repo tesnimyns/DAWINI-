@@ -35,3 +35,7 @@ window.addEventListener("scroll", () => {
         activated = false;
     }
 });
+
+
+
+
