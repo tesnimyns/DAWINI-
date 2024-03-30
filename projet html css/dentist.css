@@ -183,13 +183,8 @@ color: white;
 
 
 /* style de body */
-p{
-  text-align: center;
-  margin-top: 45px;
-  margin-left: 9px;
-  margin-right: 9px;
-  
-}
+
+
 .docteurs{
   margin: 60px 10px;
   display: grid;
@@ -210,7 +205,7 @@ p{
   height: 350px;
   width: 300px;
   /* display: block; */
-  
+ 
 }
 .profile h2{
   font-family: 'Roboto';
@@ -313,4 +308,55 @@ p{
   cursor: pointer;
   font-size: 18px;
 
+}
+.debut{
+  display: flex;
+  background-color: #f6f2f24f;
+  
+}
+.debut h4,h2,p{
+  text-align: center;
+
+}
+.debut img{
+  transform: scaleX(-1);
+}
+.debut h4{
+  margin-top: 60px ;
+  font-family: 'Roboto';
+  color: #12384Fff;
+
+}
+.debut h2{
+  font-family: 'Roboto';
+  color: #7aa7c7;
+  
+}
+.debut p{
+  font-family: 'Roboto';
+  color: rgba(169, 164, 164, 0.689);
+}
+
+
+
+
+.quote {
+  font-size: 24px; /* Taille de la police */
+  font-style: italic; /* Style de la police (italique) */
+  margin-left: 20px; /* Marge à gauche pour l'éloigner du texte */
+  margin-right: 20px; /* Marge à droite pour l'éloigner du texte */
+  display: inline-block; /* Permet de mettre en ligne les guillemets */
+}
+
+.quote:before,
+.quote:after {
+  content: "\201C"; /* Code Unicode pour le guillemet ouvrant */
+  font-size: 50px; /* Taille du guillemet */
+  margin-right: 10px; /* Marge à droite pour l'espacement */
+}
+
+.quote:after {
+  content: "\201D"; /* Code Unicode pour le guillemet fermant */
+  margin-left: 10px; /* Marge à gauche pour l'espacement */
+  margin-top: -10px; /* Ajustement pour aligner le guillemet fermant */
 }
