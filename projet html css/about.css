@@ -343,18 +343,14 @@ text-align: center;
   padding-right: 50px;
 }
 .bo{
-  font-family: 'Playfair Display';
+  font-family: 'Roboto';
   color: hsla(216, 63%, 44%, 0.772);
-  font-size: 30px;
+  font-size: 40px;
   margin-left:40px ;
   margin-top: 5px;
 
 }
-.avis .nom{
-  color: #9999997b;
-  font-family:"Open Sans" ;
-  text-align: left;
-}
+
 
 
 
@@ -415,6 +411,27 @@ text-align: center;
   line-height: 1.5;
   margin: 6px 15px;
  
+}
+
+.quote {
+  font-size: 24px; /* Taille de la police */
+  font-style: italic; /* Style de la police (italique) */
+  margin-left: 20px; /* Marge à gauche pour l'éloigner du texte */
+  margin-right: 20px; /* Marge à droite pour l'éloigner du texte */
+  display: inline-block; /* Permet de mettre en ligne les guillemets */
+}
+
+.quote:before,
+.quote:after {
+  content: "\201C"; /* Code Unicode pour le guillemet ouvrant */
+  font-size: 50px; /* Taille du guillemet */
+  margin-right: 10px; /* Marge à droite pour l'espacement */
+}
+
+.quote:after {
+  content: "\201D"; /* Code Unicode pour le guillemet fermant */
+  margin-left: 10px; /* Marge à gauche pour l'espacement */
+  margin-top: -10px; /* Ajustement pour aligner le guillemet fermant */
 }
 
 
