@@ -5,6 +5,7 @@
     list-style-type: none;
      /* overflow-x: hidden; */
   }
+
   body{
  
   
@@ -72,6 +73,16 @@
   .menu-links a:hover{
   color: white;
   }
+  .menu button a{
+    font-weight: 500;
+    color: #999999;
+    padding: 8px 16px;
+    
+    }
+    .menu button a:hover{
+    color: white;
+    }
+
   
   .rendez-vous {
   font-weight: 500;
@@ -96,7 +107,7 @@
   * footer{
     flex-shrink: 0;
     width: 100%;
-    background:  rgba(226, 225, 225, 0.717);
+    background:  rgba(226, 225, 225, 0.575);
     color: #333;
     margin-top: 10px;
   } 
@@ -175,7 +186,7 @@
   /* style de 1ere division  */
 .div1{
 
-    display: flex;
+   display: flex;
 }
 .div1 .photo {
   margin-top: 5px;
@@ -188,6 +199,7 @@
     margin: 60px;
     align-items: center;
     font-family: "Roboto slab";
+    padding-top: 30px;
 }
 .desc h3{
     font-weight: 2em;
@@ -371,6 +383,7 @@ text-align: center;
  height: 250px;
  display: block; 
    margin: 0 auto; 
+   cursor: pointer;
    
 }
 .news .date {
@@ -392,6 +405,7 @@ text-align: center;
   font-family: 'Roboto';
   margin: 10px 4px;
   color: #12384Fff;
+  cursor: pointer;
   
 }
 .news .parg{
