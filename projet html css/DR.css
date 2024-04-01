@@ -185,20 +185,6 @@
   }
   
   /* fin style footer  */
-  .debut{
-    background-color: #e4dfdf5d;
-    padding: 14px ;
-    padding-bottom: 12px;
-    margin-top: 10px;
-    
-  }
- .debut p{
-  text-align: center;
-  margin-top: 45px;
-  margin-left: 9px;
-  margin-right: 9px; 
-  margin-bottom: 20px;
- }
   
 
   .docteur{
@@ -220,4 +206,8 @@
   .description li {
     margin-bottom: 5px;
     margin-left: 25px;
+  }
+  .docteur img{
+    width: 600px;
+    height: 550px;
   }
