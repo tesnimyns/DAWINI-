@@ -183,11 +183,15 @@
 
 
   /* style de body  */
+ 
   /* style de 1ere division  */
 .div1{
 
    display: flex;
 }
+
+
+
 .div1 .photo {
   margin-top: 5px;
     display: flex;
@@ -225,7 +229,7 @@
     background-color: hsla(206, 69%, 90%, 0.477);
     margin: 5px 0px ;
     padding: 29px 0;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     
 }
 .div2 table {
@@ -342,12 +346,12 @@ text-align: center;
   height: 230px;
   padding-right: 50px;
 }
-.bo{
+.div3 h5 {
   font-family: 'Roboto';
   color: hsla(216, 63%, 44%, 0.772);
   font-size: 40px;
   margin-left:40px ;
-  margin-top: 5px;
+  margin-top: 20px; 
 
 }
 
@@ -437,6 +441,25 @@ text-align: center;
 
 
 
+ /* pour l'animation  */
+.reveal [class*="reveal-"]{
+  opacity: 0;
+  transform: translateY(30px);
+}
+.reveal-visible [class*="reveal-"]{
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5,0,0,1);
+}
+.reveal-visible .reveal-2 {
+  transition-delay: .1s ;
+}
+.reveal-visible .reveal-3 {
+  transition-delay: .2s ;
+}
+.reveal-visible .reveal-4 {
+  transition-delay:.3s ;
+}
 
 
 
