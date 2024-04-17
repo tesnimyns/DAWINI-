@@ -41,13 +41,13 @@
     </nav>
 
 
-    <div class="rdv">
+    <div class="rdv reveal">
         <div class="titre">
-            <h1>Prendre RDV</h1>
-            <p>Vous pouvez prendre un RDV via notre site web, Pour cela veuillez remplir le formulaire ci-dessous et
+            <h1 class="reveal-1" >Prendre RDV</h1>
+            <p class="reveal-2">Vous pouvez prendre un RDV via notre site web, Pour cela veuillez remplir le formulaire ci-dessous et
                 appuyer sur le bouton « Envoyer » .<br>Une confirmation vous sera adressée sous peu. <br>Merci .</p>
         </div>
-        <div class="form">
+        <div class="form reveal-3 ">
 
 
             <label for="name">Nom :</label>
@@ -84,9 +84,14 @@
             <label for="gender">Choisir le docteur :</label>
             <select id="gender" onfocus="this.size=1;" onblur="this.size=0;" onchange="this.size=1;">
 
-                <option value="DR1" selected>DR1</option>
-                <option value="DR2">DR2</option>
-                <option value="DR3">DR3</option>
+                <option value="DR1" selected>Dr Houssem Ghaffari</option>
+                <option value="DR2">Dr Asma Nouira</option>
+                <option value="DR3">Dr Mahmoud Baroudi</option>
+                <option value="DR4">Dr Arwa Hammouda</option>
+                <option value="DR5">Dr Laila Chelly</option>
+                <option value="DR6">Dr Ahmed Mrabet</option>
+                <option value="DR7">Dr Mahdi Ben Ammar</option>
+                <option value="DR8">Dr Fatma Bouaziz</option>
             </select>
 
             <br>
@@ -106,16 +111,16 @@
     </div>
 
 
-    <div class="contact-info">
-        <h2>Contact information</h2>
-        <div class="Adr">
+    <div class="contact-info reveal">
+        <h2 class="reveal-1">Contact information</h2>
+        <div class="Adr reveal-2">
             <i class="fa-solid fa-location-dot fa-bounce"></i></i>
-            <div class="ad">
+            <div class="ad ">
                 <h3>Adresse</h3>
                 <p>5.Av de la liberté – Le passage Tunis-Tunisia</p>
             </div>
         </div>
-        <div class="Adr">
+        <div class="Adr reveal-3">
             <i class="fa-solid fa-phone fa-shake"></i>
             <div class="ad">
                 <h3>Appelez-Nous</h3>
@@ -126,7 +131,7 @@
                 </p>
             </div>
         </div>
-        <div class="Adr">
+        <div class="Adr reveal-4">
             <i class="fa-solid fa-envelope fa-beat"></i>
             <div class="ad">
                 <h3>Email</h3>
@@ -136,14 +141,14 @@
                 </p>
             </div>
         </div>
-        <div class="social">
-            <div class="fb">
+        <div class="social reveal">
+            <div class="fb reveal-1">
                 <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f fa-sm"></i></a>
             </div>
-            <div class="linkdin">
+            <div class="linkdin reveal-2">
                 <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in fa-sm"></i></a>
             </div>
-            <div class="insta">
+            <div class="insta reveal-3">
                 <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-sm"></i></a>
             </div>
         </div>
@@ -151,9 +156,9 @@
 
     <!-- footer  -->
     <footer>
-        <div class="contenu-footer">
+        <div class="contenu-footer reveal">
 
-            <div class="bloc-footer-liens">
+            <div class="bloc-footer-liens reveal-1">
                 <h3>Liens Utiles</h3>
                 <ul class="liste-liens">
 
@@ -163,14 +168,14 @@
                     <li><a href="./Acceuil.html">Urgence</a></li>
                 </ul>
             </div>
-            <div class="bloc-footer-contact">
+            <div class="bloc-footer-contact reveal-2">
                 <h3> Adresse</h3>
                 <p><i class="fa-solid fa-phone"></i> +216 71 25 98 55</p>
                 <p><i class="fa-solid fa-envelope"></i> cdentaire@gmail.com</p>
                 <p> <i class="fa-solid fa-location-dot"></i> 5.Av de la liberté – Le passage Tunis</p>
             </div>
 
-            <div class="bloc-footer-horaire">
+            <div class="bloc-footer-horaire reveal-3">
                 <h3>Horaire</h3>
                 <ul class="liste-horaire">
                     <li>Lun 10h-19h</li>
@@ -182,7 +187,7 @@
                     <li>Dim fermé</li>
                 </ul>
             </div>
-            <div class="bloc-footer-sociaux">
+            <div class="bloc-footer-sociaux reveal-4">
                 <h3>Suivez-Nous</h3>
                 <ul class="liste-sociaux">
                     <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i>
@@ -206,7 +211,7 @@
     <!-- fin footer  -->
 
 
-
+<script src="./rendez_vous.js"></script>
 </body>
 
 </html>
