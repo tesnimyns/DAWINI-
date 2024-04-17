@@ -334,7 +334,11 @@ input[type="radio"]{
   margin-top: 10px;
 } 
 .bloc-footer-liens,.bloc-footer-contact,.bloc-footer-horaire,.bloc-footer-sociaux{
-  width: 25%;
+  /* width: 25%;
+  margin: 5px; */
+  flex: 1; /* Les divisions occuperont le même espace disponible */
+  padding: 10px;
+  /* border: 1px solid #ccc; */
   margin: 5px;
 }
 .bloc-footer-liens h3,.bloc-footer-contact h3,.bloc-footer-horaire h3,.bloc-footer-sociaux h3{
@@ -366,13 +370,13 @@ input[type="radio"]{
 }
 .contenu-footer{
   width: 1200px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
   font-size: 20px;
   padding:50px 0 100px ;
-  justify-items: center;
+  /* justify-items: center; */
 
 } 
 .liste-sociaux li{
@@ -402,3 +406,27 @@ input[type="radio"]{
 }
 
 /* fin style footer  */
+
+ 
+/* pour l'animation  */
+[class*="reveal-"]{
+  opacity: 0;
+  transform: translateY(30px);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5,0,0,1);
+}
+.reveal-2 {
+  transition-delay: .1s ;
+}
+.reveal-3 {
+  transition-delay: .2s ;
+}
+.reveal-4 {
+  transition-delay:.3s ;
+}
+
+
+
