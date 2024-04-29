@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*style de navbar*/
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #ffffff79;
+}
+.navbar .logo a{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Caveat";
+    color: #022162;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center
+}
+.navbar .logo img{
+    margin-right: 7px;
+}
+.navbar .nav-links ul{
+    display: flex;
+    margin: 2px;
+}
+.navbar a{
+    color:black;
+    text-decoration:none;
+    padding: 10px;
+    display:block;
+    text-align:center;
+    font-size: 20PX;
+    font-family: Open Sans,system-ui;
+}
+.navbar .nav-links ul li{
+    margin:0 5px;
+}
+.navbar .nav-links ul li.active{
+    color:#00a0b4 ;
+    font-weight: 600;
+}
+.navbar .nav-links a:hover{
+    background-color:#002678 ;
+}
+.navbar .nav-links .rendez_vous a{
+    background-color: #0471bf;
+    border: 0;
+    border-radius: 56px;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 10px 12px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.navbar .nav-links .rendez_vous a:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+.navbar .nav-links .rendez_vous a:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .navbar .nav-links .rendez_vous a {
+    padding: 16px 48px;
+  }
+}
+
+
+/*fin de style de navbar*/
+#form{
+      text-align: center;
+      border: 1px transparent;
+    box-shadow: 4PX 3PX 2PX 2PX rgba(60, 214, 188, 0.699);
+    border-radius: 15px;
+    
+}
+#form h2{
+    text-align: center;
+    text-shadow: 2px 1px 3px rgba(203, 203, 221, 0.543);
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #2ea2cc;
+}
+.formulaire{
+    padding: 15px;
+    margin:15px;
+    
+}
+.formulaire label{
+    padding: 5px;
+    margin: 2px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.formulaire input{
+    padding: 15px;
+    margin: 12px;
+    border-radius: 12px;
+}
+.formulaire input:hover{
+    background-color: beige;
+
+}
+
+
+
+
