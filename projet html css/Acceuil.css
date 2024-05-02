@@ -466,6 +466,8 @@ body{
     text-align: center;
     font-family: 'Roboto';
     margin-top: 12px;
+    font-size: 2em;
+    color:  #2C4E80;
 
   }
 
@@ -489,4 +491,7 @@ body{
 }
 .reveal-visible .reveal-4 {
   transition-delay:.3s ;
+}
+.reveal-visible .reveal-5 {
+  transition-delay:.4s ;
 }
