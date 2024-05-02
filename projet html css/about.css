@@ -359,64 +359,6 @@ text-align: center;
 
 
 
-/* STYLE DE DIV4  */
-.div4 h5{
-  text-align: center;
-  font-family: 'Roboto';
-  font-size: 35px;
-  color: hsla(240, 61%, 11%, 0.523);
-  margin: 10px 10px;
-}
-.news-container {
-  display: flex; 
-  margin: 10px 10px;
-  padding: 10px;
-  
-}
-.news{
-  margin-right: 10px; /* Espacement entre les divisions */
-  padding: 5px;
-}
-
-.news img{
- width: 300px;
- height: 250px;
- display: block; 
-   margin: 0 auto; 
-   cursor: pointer;
-   
-}
-.news .date {
-  color: rgba(128, 128, 128, 0.509);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  margin-bottom: 0;
-  margin: auto 5px;
-}
-.news .date   i {
-  margin:0 8px;
-  color: hsla(240, 46%, 38%, 0.349);
-}
-.news .date {
-  margin: 10px 2px;
-}
-.news h6{
-  font-size: 20px;
-  font-family: 'Roboto';
-  margin: 10px 4px;
-  color: #12384Fff;
-  cursor: pointer;
-  
-}
-.news .parg{
-  color: black;
-  font-size: 15px;
-  font-family: Georgia ;
-  line-height: 1.5;
-  margin: 6px 15px;
- 
-}
-
 .quote {
   font-size: 24px; /* Taille de la police */
   font-style: italic; /* Style de la police (italique) */
