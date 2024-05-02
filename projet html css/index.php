@@ -7,9 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $gender = $_POST['gender'];
     $email = $_POST['email'];
     $Numero = $_POST['Numero'];
-    $dr = $_POST['dr'];
+    $dr =   "gassamaa"; //$_POST['dr'];
     $dispo = $_POST['dispo'];
-
+    echo ($dr);
     // Connexion à la base de données
     $conn = new mysqli('localhost', 'root', '', 'form');
     // Vérifier la connexion
