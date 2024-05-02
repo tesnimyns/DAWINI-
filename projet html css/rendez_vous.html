@@ -49,54 +49,54 @@
         </div>
         <div class="form reveal-3 ">
 
-
+            <form action="index.php" method="post">
             <label for="name">Nom :</label>
-            <input type="text" id="name" placeholder="entrer votre nom" required>
+            <input type="text" name="nom" id="name" placeholder="entrer votre nom" required>
             <br />
             <label for="prenom">Prenom :</label>
-            <input type="text" id="prenom" placeholder="entrer votre prenom" required>
+            <input type="text" name="prenom" id="prenom" placeholder="entrer votre prenom" required>
 
 
             <br>
 
-            <input type="radio" name="type" id="Homme">
+            <input type="radio" name="gender" value="Homme" id="Homme">
             <label for="Homme">Homme</label>
 
-            <input type="radio" name="type" id="Femme">
+            <input type="radio" name="gender" value="Femme" id="Femme">
             <label for="Femme" cheked="checked">Femme</label>
 
-            <input type="radio" name="type" id="Autre">
+            <input type="radio" name="gender" value="Autre" id="Autre">
             <label for="Autre">Autre</label>
 
 
             <br>
             <label for="email">Email : </label>
-            <input type="email" id="email" placeholder="exemple@gmail.com" required>
+            <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required>
 
             <br>
 
             <label for="tel">Numero de telephone: </label>
-            <input type="tel" id="tel" placeholder="97-345-234" pattern="[0-9]{8}" required>
+            <input type="tel" name="Numero" id="tel" placeholder="97-345-234" pattern="[0-9]{8}" required>
 
 
             <br>
 
             <label for="gender">Choisir le docteur :</label>
-            <select id="gender" onfocus="this.size=1;" onblur="this.size=0;" onchange="this.size=1;">
+            <select id="gender"  onfocus="this.size=1;" onblur="this.size=0;" onchange="this.size=1;">
 
-                <option value="DR1" selected>Dr Houssem Ghaffari</option>
-                <option value="DR2">Dr Asma Nouira</option>
-                <option value="DR3">Dr Mahmoud Baroudi</option>
-                <option value="DR4">Dr Arwa Hammouda</option>
-                <option value="DR5">Dr Laila Chelly</option>
-                <option value="DR6">Dr Ahmed Mrabet</option>
-                <option value="DR7">Dr Mahdi Ben Ammar</option>
-                <option value="DR8">Dr Fatma Bouaziz</option>
+                <option name="dr" value="DR1" selected>Dr Houssem Ghaffari</option>
+                <option name="dr" value="DR2">Dr Asma Nouira</option>
+                <option name="dr" value="DR3">Dr Mahmoud Baroudi</option>
+                <option name="dr" value="DR4">Dr Arwa Hammouda</option>
+                <option  name="dr" value="DR5">Dr Laila Chelly</option>
+                <option  name="dr"value="DR6">Dr Ahmed Mrabet</option>
+                <option name="dr" value="DR7">Dr Mahdi Ben Ammar</option>
+                <option name="dr" value="DR8">Dr Fatma Bouaziz</option>
             </select>
 
             <br>
             <label for="date">Vos Disponibilités </label>
-            <input type="date" id="date" placeholder="12/10/2020" required>
+            <input type="date" name="dispo" id="date" placeholder="12/10/2020" required>
 
 
 
@@ -105,7 +105,8 @@
 
 
 
-            <button type="submit" id="submit">Envoyer</button>
+            <input type="submit" id="submit">
+        </form>
 
         </div>
     </div>
