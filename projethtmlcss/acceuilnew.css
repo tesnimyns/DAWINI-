@@ -1,0 +1,724 @@
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* display: flex; /* Utilisation de flexbox pour centrer le contenu */
+    justify-content: center;
+    /* Centre le contenu horizontalement */
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /*style de navbar*/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  button {
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+  
+  }
+  
+  .navbar .nav-links ul {
+    display: flex;
+    margin: 2px;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-family: Open Sans, system-ui;
+  }
+  
+  .navbar .nav-links ul li {
+    margin: 0 5px;
+  }
+  
+  .navbar .nav-links ul li.active {
+    color: #00a0b4;
+    font-weight: 600;
+  }
+  
+  .navbar .nav-links a:hover {
+    background-color: #002678;
+  }
+  
+  .navbar {
+    background-color: #9CCBE4ff;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .navbar .logo a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-left: 12px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .menu-links {
+    display: flex;
+    gap: 24px;
+    border-right: 1px solid #999999;
+    padding-inline: 24px;
+  }
+  
+  .menu-links a {
+    font-weight: 500;
+    color: #999999;
+    padding: 8px 16px;
+  
+  }
+  
+  .menu-links a:hover {
+    color: white;
+  }
+  
+  
+  .rendez-vous {
+    font-weight: 500;
+    padding: 12px 22px;
+    background-color: transparent;
+    color: #999999;
+    border-radius: 10px;
+    border: 2px solid #12384Fff;
+    transition: 0.2s;
+  
+  }
+  
+  .rendez-vous:hover {
+    background-color: #12384Fff;
+    color: white;
+  }
+  
+  /*fin de style de navbar*/
+
+  /* footer */
+  * footer {
+    flex-shrink: 0;
+    width: 100%;
+    background: rgba(226, 225, 225, 0.575);
+    color: #333;
+  }
+  
+  .bloc-footer-liens,
+  .bloc-footer-contact,
+  .bloc-footer-horaire,
+  .bloc-footer-sociaux {
+    width: 25%;
+    margin: 5px;
+  }
+  
+  .bloc-footer-liens h3,
+  .bloc-footer-contact h3,
+  .bloc-footer-horaire h3,
+  .bloc-footer-sociaux h3 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: #12384Fff;
+    font-family: "poppins";
+  
+  }
+  
+  .bloc-footer-contact p {
+    padding: 5px 0;
+    color: black;
+  }
+  
+  .liste-liens li {
+    padding: 2px 0;
+  }
+  
+  .liste-liens a {
+    color: black;
+  }
+  
+  .liste-liens a:hover {
+    color: #999999;
+  }
+  
+  .liste-horaire li {
+    padding: 3px;
+    color: black;
+  }
+  
+  .liste-liens li {
+    padding: 3px;
+  }
+  
+  .contenu-footer {
+    width: 1200px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    justify-items: center;
+  
+  }
+  
+  .liste-sociaux li {
+    padding: 3px;
+  }
+  
+  .liste-sociaux a i {
+    color: black;
+    margin: 10px;
+  }
+  
+  .liste-sociaux a {
+    color: black;
+  }
+  
+  .liste-sociaux a:hover {
+    color: #999999;
+    box-shadow: #7aa7c7;
+  }
+  
+  .liste-sociaux i:hover {
+    color: #999999;
+    box-shadow: #7aa7c7;
+  }
+  
+  .copy-right-sec {
+    padding: 1rem;
+    font-size: 16px;
+    width: 100vw;
+    background: #12384Fff;
+    color: #fff;
+    text-align: center;
+  }
+/* fin de stume footer   */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.description {
+    flex: 1;
+    font-size: 1.2em;
+   margin-left: 30px;
+   padding-left: 20px;
+}
+
+
+.first img {
+    /* max-width: 80%;
+    height: auto; */
+    width: 690px;
+    height: 380;
+    
+     margin-left: 30px; 
+}
+
+.first h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #366399; 
+}
+
+.first p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #011937; 
+}
+
+  
+
+  /* style de div counters  */
+.counters{
+    padding: 3em 2em;
+    background: #012c4b;
+    color: #fff;
+    text-align: center;
+    
+    }
+    .counters  > div{
+      margin: 0 auto ;
+      display: grid;
+      gap: 4em 2em;
+      grid-template-columns: repeat(4, 1fr); 
+    }
+    .counter{
+      position: relative;
+      font-family: "Roboto slab";
+    } 
+    .counter h5 {
+      font-size: 1em;
+      margin-bottom: 0.5em;
+    } 
+
+
+
+  .highlight{
+        color: #366399;
+        font-weight:bold ;
+  }
+   
+.services{
+    display: flex;
+   
+
+}
+.serv1 h5{
+  font-size: 18px;
+  padding: 10px;
+  
+}
+.serv1 h6{
+  color: #7aa7c776;
+  padding-top: 12px;
+}
+
+
+.services img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50px;
+    align-items: center;
+    margin-bottom: 7px;
+    background-color: #7aa7c742;
+    transition: transform 0.6s ease, filter 0.6s ease; /* Ajoute des transitions pour la transformation et le filtre */
+    transform-origin: center; /* Définit le point de transformation au centre */
+}
+
+
+.deuxieme{
+    text-align: center; 
+    margin: 0 auto;
+}
+.deuxieme h5{
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.serv1 {
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px 10px;
+  padding: 30px 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.serv1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #3663995a;
+  z-index: -1;
+  transition: height 0.3s ease;
+}
+
+.serv1:hover::before {
+  height: 100%;
+}
+.serv1:hover img{
+  transform: rotateY(180deg); /* Effet de retournement */
+  background-color: #0026785f; 
+
+}
+.serv1:hover h6{
+  color: #002678;
+}
+
+.deuxieme button{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #002678;
+  background-color: #002678;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.deuxieme button:hover{
+  border: 1px solid #002678;
+  background-color: #ffffff;
+  color: #002678;
+} 
+
+
+
+
+
+.troisieme{
+  text-align: center; 
+  margin: 10px auto;
+  
+}
+
+.medecins{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.troisieme h5{
+  font-size: 1.2em;
+  margin-top: 40px;
+  
+}
+
+.troisieme button{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #002678;
+  background-color: #002678;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.troisieme button:hover{
+  border: 1px solid #002678;
+  background-color: #ffffff;
+  color: #002678;
+} 
+.element {
+  position: absolute;
+  bottom: 45px;
+  left: 40px; 
+  width: 300px;
+  background-color:#002678b5 ; 
+  color: white;
+  padding: 2px;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.med1:hover .element {
+  opacity: 1; /* Lorsque vous survolez le conteneur, affichez le texte */
+}
+
+.med1 img{
+  width: 300px;
+  height: 390px;
+  margin: 30px;
+}
+.med1{
+  position: relative;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* style de la divion difference */
+.difference .all {
+  display: flex;
+
+}
+
+.all .premier {
+  flex: 1;
+}
+
+.difference {
+  background-color: #bebebe15;
+  padding: 45px 8px;
+}
+
+.difference h2 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 2em;
+  margin: 12px;
+  padding-bottom: 9px;
+  color: #2C4E80;
+}
+
+.difference .all .premier img {
+  margin-left: 160px;
+}
+
+.difference .all .premier h6 {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+
+}
+
+.difference .all .premier p {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+
+}
+
+/* fin de division de difference   */
+
+
+.div4{
+  background-color: #e4e1e12a;
+}
+.div4 h5{
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #2C4E80;
+  margin: 10px 10px;
+}
+.news-container {
+  display: flex; 
+  margin: 10px 10px;
+  padding: 10px;
+  
+}
+.news{
+  margin-right: 10px; /* Espacement entre les divisions */
+  padding: 5px;
+}
+
+.news img{
+ width: 300px;
+ height: 250px;
+ display: block; 
+   margin: 0 auto; 
+   cursor: pointer;
+   
+}
+.news .date {
+  color: rgba(128, 128, 128, 0.509);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin: auto 5px;
+}
+.news .date   i {
+  margin:0 8px;
+  color: hsla(240, 46%, 38%, 0.349);
+}
+.news .date {
+  margin: 10px 2px;
+}
+.news h6{
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 10px 4px;
+  color: #12384Fff;
+  cursor: pointer;
+  
+}
+.news .parg{
+  color: black;
+  font-size: 15px;
+  font-family: Georgia ;
+  line-height: 1.5;
+  margin: 6px 15px;
+ 
+}
+
+/* pour l'animation  */
+.reveal [class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal-visible [class*="reveal-"] {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-visible .reveal-2 {
+  transition-delay: .1s;
+}
+
+.reveal-visible .reveal-3 {
+  transition-delay: .2s;
+}
+
+.reveal-visible .reveal-4 {
+  transition-delay: .3s;
+}
+
+.reveal-visible .reveal-5 {
+  transition-delay: .4s;
+}
+
+
+
+/* avis des patients */
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.slider-1{
+  border:1px solid rgba(255, 255, 255, 0) ;
+  overflow: hidden; 
+}
+.slider-1 .slider{
+  display: flex;
+  animation: slider-1 12s infinite ease-in-out;
+}
+ .slider-1 .avis{
+  background: rgb(255, 255, 255);
+  flex-shrink: 0;
+  padding: 10px ; 
+  width: 100%;
+  text-align: center; 
+  
+} 
+@keyframes slider-1{
+  0%,20% {
+      transform: translateX(0);
+  }
+  25%,45%{
+      transform:translateX(-100%);
+  }
+  50%,70%{
+      transform:translateX(-200%);
+  }
+  75% , 95%{ 
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-400%);
+  }
+
+}
+.div3{
+  margin-top: 20px;
+}
+.avis{
+  display:flex;
+  margin-bottom :20px; 
+  
+  
+}
+.avis p {
+  font-family: 'roboto slab';
+  font-size: 25px;
+  color: #686868;
+  margin-left: 5px;
+  
+  text-align: center; /* Aligner le texte à gauche */
+  margin-top: 20px;
+  margin-right:70px
+
+  
+}
+
+.avis img {
+  width: 420px;
+  height: 230px;
+  padding-right: 50px;
+}
+.title h5 {
+  /* font-family: 'Roboto'; */
+  color: hsla(216, 63%, 44%, 0.772);
+  font-size: 40px;
+  text-align: center;
+}
+.title{
+ 
+  margin-bottom: 30px; 
+}
+
+
+.avis .name{
+  text-transform:capitalize;
+  color: #012c4b;
+}
+.rating{
+  padding-top: 20px;
+  color: #eae616b1;
+}
+.quote {
+  font-size: 24px; /* Taille de la police */
+  font-style: italic; /* Style de la police (italique) */
+  margin-left: 20px; /* Marge à gauche pour l'éloigner du texte */
+  margin-right: 20px; /* Marge à droite pour l'éloigner du texte */
+  display: inline-block; /* Permet de mettre en ligne les guillemets */
+}
+
+.quote:before,
+.quote:after {
+  content: "\201C"; /* Code Unicode pour le guillemet ouvrant */
+  font-size: 50px; /* Taille du guillemet */
+  margin-right: 10px; /* Marge à droite pour l'espacement */
+}
+
+.quote:after {
+  content: "\201D"; /* Code Unicode pour le guillemet fermant */
+  margin-left: 10px; /* Marge à gauche pour l'espacement */
+  margin-top: -10px; /* Ajustement pour aligner le guillemet fermant */
+}
+
+ 

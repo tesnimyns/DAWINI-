@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentistes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./dentist.css">
+    <!-- font caveat  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Assistant&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <!-- fin font caveat  -->
+    <script src="https://kit.fontawesome.com/a3fb9647c7.js" crossorigin="anonymous"></script>
+    <!-- font poopins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Assistant&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fin font poppins  -->
+</head>
+<body>
+<!-- bare de navigation -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="./images/logo.png">
+        <a href="./acceuilnew.html">DAWINI</a>
+
+    </div>
+    <div class="menu">
+        <div class="menu-links">
+            <a href="./acceuilnew.html">Acceuil</a>
+            <a href="./Services.html">Services</a>
+            <a href="./Dentistes.html">Dentistes</a>
+            <a href="./about.html">About </a>
+
+        </div>
+        <div >
+            <button class="rendez-vous"><a href="./rendez_vous.html">Rendez-vous</a></button>
+        </div>
+    </div>
+    
+</nav>
+
+
+    <div class="debut reveal">
+        <div class="do">
+        <h4 class="reveal-1">DAWINI</h4>
+        <h2 class="reveal-2">Équipe Spécialisée</h2>
+        <p class="quote reveal-3">Nous sommes une équipe de dentistes, d'hygiénistes et de réceptionnistes qui travaillent ensemble pour s'assurer que vous recevez le meilleur traitement dont vous avez besoin au moment qui vous convient.</p></div>
+        <img  src="./img/toto.png" class="reveal-4">
+    </div>
+
+<div class="docteurs reveal">
+    <div class="docteur reveal-1">
+        <div class="image-container ">
+        <img src="./img/dr4.png" alt="docteur houssem ghaffari"  >
+        <h3  onclick="showPopup(0)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Houssem Ghaffari</h2>
+            <h3>Orthodontiste Sénior</h3>
+            
+            <div class="social reveal-6">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-0">
+        <div class="popup-content ">
+            <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+            <img src="./img/dr4.png" alt="Dr Houssem Ghaffari">
+        
+        <div class="description">
+            <p >
+                Dr. <strong>Houssem Ghaffari</strong> est parmi les meilleurs dentistes en Tunisie. Il est spécialiste en Orthodontie en Tunisie.
+        <br>
+        Le docteur DAMAK, parmi les meilleurs orthodentistes de Tunisie, vous accueille dans son calme cabinet puis vous assure par la suite un accompagnement personnalisé par une écoute attentive. Docteur <strong>Houssem Ghaffari</strong> possède une formtion approfondie et spécialisée en Orthodontie. Ainsi, il cumule plusieurs années d’expérience dans ce domaine .
+        <br>
+            </p>
+            <ul >
+                <li>Docteur en médecine dentaire depuis 2009.</li>
+                <li>Spécialiste en dentisterie esthétique, Orthodontie</li>
+                <li>Certificat de « paro-implantologie esthétique » à Tunis, 2009/2010.</li>
+                <li>Formation « concept, indication and handling of friadent products ». Germany en 2010.</li>
+                <li>Formation « the biologically Driven Denal Implant System » à Florida,USA en 2011.</li>
+                <li>Certificat d’études complémentaires occlusodontie en 2017/2018.</li>
+                <li>Ainsi, une formation « Du l’implantologie et chirurgies avancées ». A Dijon, France en 2018/2019.</li>
+        
+            </ul>
+        </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="docteur reveal-2">
+        <div class="image-container ">
+        <img src="./img/dr3.png" alt="docteur Asma Nouira "  >
+        <h3 onclick="showPopup(1)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Asma Nouira</h2>
+            <h3>Dentiste Esthétique</h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-1">
+        <div class="popup-content">
+            <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+            <img  src="./img/dr3.png" alt="Dr Asma Nouira">
+        
+        <div class="description">
+            <p >
+                Dr. <strong>Asma Nouira</strong> spécialiste en chirurgie dentaire en Tunisie, elle est inscrite à l’ordre des médecins Tunisiens.
+                <br>
+                Docteur <strong>Nouira</strong> a fait ses preuves dans le domaine de la chirurgie implantaire et dentisterie esthétique.
+                Elle se consacre exclusivement au domaine dentaire et propose à ses patients les dernières techniques de pointe.
+                <br>
+                Docteur <strong>Asma Nouira</strong> est une spécialiste en médecine dentaire ayant obtenu son diplôme de la faculté de médecine de Monastir, Tunisie.
+        
+            </p>
+            <ul >
+                <li>Docteur en médecine dentaire depuis 2004.</li>
+                <li>Diplôme de médecine de la faculté de médecine de Monastir, Tunisie.</li>
+                <li>Spécialiste en chirurgie implantaire et en dentisterie esthétique de l’Université Toulouse Paul Sabatier, France.</li>
+                <li>Certification Lumineers Porcelain Veneers.</li>
+                <li>Diplôme post universitaire en technique de blanchiment des dents.</li>
+                <li>Certification Ecligner Orthodontic Aligners.</li>
+                <li>Inscrite au conseil national de l’ordre des médecins de Tunisie</li>
+        
+            </ul>
+        </div>
+        </div>
+        
+    </div>
+
+
+    <div class="docteur reveal-3 ">
+        <div class="image-container ">
+        <img src="./img/dr7.jpg" alt="docteur Mahmoud Baroudi  " >
+        <h3 onclick="showPopup(2)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Mahmoud Baroudi</h2>
+            <h3>Dentiste pédiatrique</h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-2">
+    <div class="popup-content">
+        <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+        <img   src="./img/dr7.jpg" alt="Dr Mahmoud Baroudi">
+    
+    <div class="description">
+        <p >
+            Dr. <strong>Mahmoud Baroudi</strong> l'un des meilleures dentistes pédiatriques en Tunisie. Spécialisée dans les soins dentaires pour enfants, il s'engage à offrir un environnement accueillant et rassurant pour les plus jeunes patients et à fournir des soins de haute qualité adaptés à leurs besoins uniques..
+            <br>
+            Le Cabinet de Docteur <strong>Mahmoud Baroudi</strong> est conçu pour répondre aux besoins des enfants, avec des espaces de jeu et une atmosphère chaleureuse qui les mettent à l'aise dès leur arrivée. il s'efforce de rendre chaque visite chez le dentiste une expérience positive et éducative, encourageant les enfants à prendre soin de leur santé dentaire dès leur plus jeune âge.
+           
+    
+        </p>
+        <ul >
+            <li>Docteur en médecine dentaire avec spécialisation en dentisterie pédiatrique depuis 2012.</li>
+            <li>Expert en prévention et traitement des caries chez les enfants.</li>
+            <li>Certification en techniques de gestion du comportement pédiatrique pour assurer des visites sans stress.</li>
+            <li>Participation à des programmes de sensibilisation à la santé bucco-dentaire dans les écoles et les communautés locales.</li>
+            
+        </ul>
+        <p>Avec son approche douce et attentionnée, Dr <strong>Mahmoud Baroudi</strong> est le choix idéal pour les parents recherchant un dentiste pédiatrique dévoué et compétent pour leurs enfants.
+
+        </p>
+    </div>
+    </div>
+ </div>
+
+
+
+    <div class="docteur reveal-4 ">
+        <div class="image-container ">
+        <img src="./img/dr1.png" alt="docteur Aroua Hamouda"   >
+        <h3 onclick="showPopup(3)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Arwa Hammouda</h2>
+            <h3>Parodontiste
+            </h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-3">
+        <div class="popup-content">
+            <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+            <img   src="./img/dr1.png" alt="Dr Aroua Hammouda">
+        
+        <div class="description">
+            <p >
+                Dre. <strong>Aroua Hammouda</strong>  est une dentiste parodontiste hautement qualifiée, dévouée à la santé et au bien-être des gencives de ses patients. Avec une expertise spécialisée dans le traitement des maladies des gencives et des tissus de soutien des dents, elle offre des soins de qualité supérieure pour restaurer la santé bucco-dentaire de ses patients.
+                <br>
+                La mission du cabinet de la Dre <strong>Aroua Hammouda </strong> est de fournir des traitements personnalisés et des solutions efficaces pour traiter et prévenir les maladies parodontales. Grâce à une approche holistique de la santé bucco-dentaire, elle travaille en étroite collaboration avec ses patients pour évaluer leurs besoins uniques et élaborer des plans de traitement adaptés à leurs objectifs de santé bucco-dentaire.
+                Les services offerts par le cabinet de la Dre Martin comprennent :
+            </p>
+            <ul >
+                <li>Traitement de la gingivite et de la parodontite pour restaurer la santé des gencives.</li>
+                <li>Greffes de gencives pour restaurer les tissus mous endommagés.</li>
+                <li>Chirurgie parodontale pour traiter les cas avancés de maladies parodontales.</li>
+                <li>Maintenance parodontale régulière pour prévenir les rechutes et maintenir la santé des gencives.</li>
+                
+            </ul>
+        </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <div class="docteur reveal-1">
+        <div class="image-container ">
+        <img src="./img/dr5.png" alt="docteur Laila Chelly"  >
+        <h3 onclick="showPopup(4)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Laila Chelly</h2>
+            <h3>Orthodontiste </h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+<div class="popup popup-4">
+    <div class="popup-content">
+        <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+        <img  src="./img/dr5.png" alt="Dr laila Chelly">
+    
+    <div class="description">
+        <p >
+            Dre. <strong>Laila Chelly</strong>  l'une des orthodontistes les plus réputées en Tunisie, vous accueille chaleureusement dans son cabinet calme et accueillant, où elle s'engage à vous offrir un traitement orthodontique de la plus haute qualité. Avec son attention personnalisée et son écoute attentive, la doctoresse Ben Ali s'efforce de créer des sourires éclatants et confiants pour ses patients.
+            <br>
+            
+            Diplômée en médecine dentaire en 2008, la doctoresse <strong>Chelly</strong> s'est ensuite spécialisée en orthodontie, poursuivant une formation rigoureuse et approfondie dans ce domaine. Forte de plusieurs années d'expérience, elle possède une expertise exceptionnelle dans le diagnostic, le traitement et la correction des problèmes orthodontiques, qu'il s'agisse de malocclusions, de dents mal alignées ou de problèmes de mâchoire.
+            <br>
+            Parmi ses qualifications et formations :
+        </p>
+        <ul >
+            <li>Diplôme en orthodontie délivré par l'Université de Tunis.</li>
+            <li>Certification en esthétique dentaire pour offrir des sourires équilibrés et harmonieux.</li>
+            <li>Formation avancée en techniques d'orthodontie invisibles pour des traitements discrets et confortables.</li>
+            <li>Participation à des programmes de recherche et de développement en orthodontie pour rester à la pointe des dernières avancées technologiques.</li>
+            
+        </ul>
+        
+    </div>
+    </div>
+</div>
+
+
+    <div class="docteur reveal-2">
+        <div class="image-container ">
+        <img src="./img/dr2.png" alt="docteur Ahmed Mrabet"  >
+        <h3 onclick="showPopup(5)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Ahmed Mrabet </h2>
+            <h3>Chirurgien buccal et maxillo-facial</h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-5">
+        <div class="popup-content">
+            <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+            <img src="./img/dr2.png" alt="Dr Ahmed Mrabet">
+        
+        <div class="description">
+            <p >
+                Dr <strong>Ahmed Mrabet</strong> est l'un des chirurgiens buccaux et maxillo-faciaux les plus réputés en Tunisie, offrant des soins chirurgicaux avancés pour traiter une gamme de problèmes dentaires et maxillo-faciaux. Avec son expertise spécialisée et son dévouement à fournir des soins de qualité supérieure, Dr <strong>Mrabet
+                </strong> s'engage à améliorer la santé et la qualité de vie de ses patients.
+                <br>
+                
+                Diplômé en médecine dentaire en 2005, le Dr <strong>Ahmed Mrabet </strong>a ensuite complété sa spécialisation en chirurgie buccale et maxillo-faciale, devenant un expert dans le traitement des affections telles que les maladies des gencives, les kystes et les tumeurs buccales, les fractures maxillo-faciales, et la chirurgie de l'articulation temporo-mandibulaire (ATM).
+    <br>
+    Parmi ses qualifications et formations :
+            </p>
+            <ul>
+                <li>Diplôme en chirurgie buccale et maxillo-faciale de l'Université de Tunis.</li>
+                <li>Certification en implantologie dentaire pour la restauration des dents manquantes.</li>
+                <li>Formation avancée en chirurgie reconstructive maxillo-faciale pour traiter les déformations faciales et les traumatismes graves.</li>
+                <li>Participation à des programmes de recherche et de développement pour rester à la pointe des dernières avancées en chirurgie buccale et maxillo-faciale.</li>
+                
+            </ul>
+            
+        </div>
+        </div>
+    </div>
+
+    <div class="docteur reveal-3 ">
+        <div class="image-container ">
+        <img src="./img/dr6.png" alt="docteur Mehdi Ben Ammar"  >
+        <h3 onclick="showPopup(6)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile ">
+            <h2>Dr Mahdi Ben Ammar </h2>
+            <h3>Orthodontiste</h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-6">
+       
+        <div class="popup-content">
+            <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+            <img  src="./img/dr6.png" alt="Dr Mahdi ben Ammar">
+        
+        <div class="description">
+            
+        <p > Dr. <strong>Mahdi Ben Ammar</strong> est parmi les meilleurs dentistes en Tunisie. Il est spécialiste en Orthodontie en Tunisie.
+    <br>
+    Le docteur BEN AMMAR, vous accueille dans son calme cabinet puis vous assure par la suite un accompagnement personnalisé par une écoute attentive. Docteur <strong>Ben Ammar</strong> possède une formtion approfondie et spécialisée en Orthodontie. Ainsi, il cumule plusieurs années d’expérience dans ce domaine .
+    <br>
+        </p>
+        <ul >
+            <li>Docteur en médecine dentaire depuis 1991.</li>
+            <li>Spécialiste en dentisterie esthétique, Orthodontie</li>
+            <li>Certificat de « paro-implantologie esthétique » à Tunis, 2001/2002.</li>
+            <li>Formation « concept, indication and handling of friadent products ». Germany en 2010.</li>
+            <li>Formation « the biologically Driven Denal Implant System » à Florida,USA en 2011.</li>
+            <li>Certificat d’études complémentaires occlusodontie en 2005/2006.</li>
+            <li>Ainsi, une formation « Du l’implantologie et chirurgies avancées ». A Dijon, France en 2006/2007.</li>
+    
+        </ul>
+            
+        </div>
+        </div>
+    </div>
+
+    <div class="docteur reveal-4 ">
+        <div class="image-container ">
+        <img src="./images/dr3.png" alt="docteur Fatma Bouaziz"  >
+        <h3 onclick="showPopup(7)" class="incrustation">Voir le profil complet </h3>
+        </div>
+        
+       
+        <div class="profile " >
+            <h2>Dr Fatma Bouaziz </h2>
+            <h3>Dentiste Esthétique</h3>
+            
+            <div class="social ">
+                
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                
+                
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            
+            </div>
+        </div>
+    </div>
+
+ <div class="popup popup-7">
+    
+    <div class="popup-content">
+        <i onclick="hide()"  class="fa-solid fa-xmark" style="color: #a0a4ab;"></i>
+        <img src="./images/dr3.png" alt="Dre Fatma Bouaziz">
+    
+    <div class="description">
+        <p>
+            Dre. <strong>Fatma Bouaziz</strong> est une dentiste esthétique de renom, spécialisée dans l'embellissement des sourires et l'amélioration de l'esthétique dentaire. Avec son expertise et son souci du détail, elle s'engage à offrir à ses patients des traitements esthétiques dentaires de qualité supérieure pour des résultats éclatants et naturels.
+    <br>
+    Diplômée en médecine dentaire en 2007, elle  a ensuite poursuivi sa spécialisation en dentisterie esthétique, se spécialisant dans les techniques avancées pour améliorer l'apparence des dents et du sourire. Elle combine son savoir-faire technique avec une approche artistique pour créer des sourires harmonieux et équilibrés qui rehaussent la confiance et la beauté naturelle de ses patients.
+    <br>
+    Parmi ses qualifications et formations :
+    <br>
+        </p>
+        <ul >
+            <li>Diplôme en dentisterie esthétique de l'Université de Paris.</li>
+            <li>Certification en blanchiment dentaire pour des sourires éclatants.</li>
+            <li>Formation avancée en pose de facettes dentaires pour corriger les imperfections dentaires.</li>
+            <li>Participation à des programmes de perfectionnement professionnel pour rester à la pointe des dernières tendances et techniques en dentisterie esthétique.</li>
+            
+            
+    
+        </ul>
+    </div>
+    </div>
+ </div>
+        
+       
+</div>
+    
+   <!-- footer  -->
+   <footer>
+    <div class="contenu-footer reveal ">
+
+        <div class="bloc-footer-liens reveal-1">
+            <h3>Liens Utiles</h3>
+            <ul class="liste-liens">
+
+                <li><a href="./Acceuil.html">Acceuil</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a href="./Acceuil.html">Dentistes</a></li>
+                <li><a href="./Acceuil.html">Urgence</a></li>
+            </ul>
+        </div>
+        <div class="bloc-footer-contact reveal-2">
+            <h3> Adresse</h3>
+            <p><i class="fa-solid fa-phone"></i> +216 71 25 98 55</p>
+            <p><i class="fa-solid fa-envelope"></i>    cdentaire@gmail.com</p>
+            <p> <i class="fa-solid fa-location-dot"></i> 5.Av de la liberté – Le passage Tunis</p>
+        </div>
+        
+        <div class="bloc-footer-horaire reveal-3">
+            <h3>Horaire</h3>
+            <ul class="liste-horaire">
+                <li>Lun 10h-19h</li>
+                <li>Mar 10h-19h</li>
+                <li>Mer 10h-19h</li>
+                <li>Jeu 10h-19h</li>
+                <li>Ven 10h-19h</li>
+                <li>Sam 10h-14h</li>
+                <li>Dim fermé</li>
+            </ul>
+        </div>
+        <div class="bloc-footer-sociaux reveal-4">
+            <h3>Suivez-Nous</h3>
+            <ul class="liste-sociaux">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+        Copyright © 2022 Tous droits réservés - Clinique Dentaire Tunisie 
+
+
+    </div>
+
+  </section>
+  <!-- fin footer  -->
+  <script src="./Dentist.js"></script>
+    
+</body>
+</html>
